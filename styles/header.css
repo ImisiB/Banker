@@ -1,4 +1,5 @@
 .header{
+  position: fixed;
   padding: 0 170px;
   height: 65px;
   background-color: white;
@@ -11,24 +12,55 @@
   font-size: xx-large;
   color: #fd7e14;
   cursor: pointer;
+  margin-right: 540px;
 }
 .heads{
   color: #fd7e14;
-  font-size: larger;
+  font-size: x-large;
+  margin-right: 40px;
   cursor: pointer;
 }
 .about{
   cursor: pointer;
   width: 70px;
-  font-size: larger;
+  font-size: x-large;
+  margin-right: 40px;
 }
 .about:hover{
   color: #fd7e14;
 }
 .blog{
   cursor: pointer;
-  font-size: larger;
+  font-size: x-large;
+  margin-right: 40px;
 }
 .blog:hover{
+  color: #fd7e14;
+}
+.contact{
+  cursor: pointer;
+  font-size: x-large;
+  margin-right: 40px;
+  color: black;
+}
+.contact:hover{
+  color: #fd7e14;
+}
+.twitter{
+  cursor: pointer;
+  font-size: x-large;
+  margin-right: 40px;
+  color: black;
+}
+.twitter:hover{
+  color: #fd7e14;
+}
+.in{
+  cursor: pointer;
+  font-size: x-large;
+  margin-right: 40px;
+  color: black;
+}
+.in:hover{
   color: #fd7e14;
 }
