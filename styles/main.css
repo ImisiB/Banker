@@ -1,0 +1,27 @@
+.bank{
+  display: grid;
+  height: 100vh;
+  background-image: url(../imgs/hero_2.jpg.webp);
+}
+.banks{
+  background: #B8B2A6B3;
+  display: grid;
+  text-align: center;
+  place-content: center;
+}
+.banking{
+  color: white;
+  font-size: 70px;
+  font-weight: 400;
+  font-family: open sans;
+  cursor: none;
+}
+.lorem{
+  color: white;
+  font-size: x-large;
+  width: 900px;
+  cursor: none;
+}
+.dots{
+  color: black;
+}
