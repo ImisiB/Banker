@@ -1,54 +1,68 @@
 header{
   position: fixed;
-  width: 100%;
+  width: 100%; 
 }
 .header{
   padding: 0 170px;
   height: 65px;
   background-color: white;
-  margin: auto;
-  display: flex;
+  display: flex ;
   align-items: center;
   justify-content: space-between;
 }
 .head{
-  font-size: xx-large;
+  font-size: x-large;
   color: #fd7e14;
   cursor: pointer;
   margin-right: 540px;
 }
 .heads{
   color: #fd7e14;
-  font-size: x-large;
+  font-size: large;
   margin-right: 40px;
   cursor: pointer;
+
 }
 .about{
   cursor: pointer;
-  width: 70px;
-  font-size: x-large;
+  /* width: 200px; */
+  font-size: large;
   margin-right: 40px;
   height: 50px;
+  /* background-color: red; */
+  padding-left: 20px;
+  padding-right: 20px;
+  /* width: 200px; */
+}
+.span{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 .about:hover{
   color: #fd7e14;
   border-bottom-color: red;
 }
 .we:hover .us{
-  /* display: block; */
+  display: block;
   background-color: white;
-  border-top: red;
+  border-top-color: red;
 }
 .us{
   display: none;
-  /* height: 2px; */
 }
 .you{
-  
+  height: 50px;
+  /* width: 100%; */
+
+}
+.you:hover{
+  background-color: lightgray;
 }
 .blog{
   cursor: pointer;
-  font-size: x-large;
+  font-size: large;
   margin-right: 40px;
 }
 .blog:hover{
@@ -56,7 +70,7 @@ header{
 }
 .contact{
   cursor: pointer;
-  font-size: x-large;
+  font-size: large;
   margin-right: 40px;
   color: black;
 }
@@ -65,16 +79,25 @@ header{
 }
 .twitter{
   cursor: pointer;
-  font-size: x-large;
+  font-size: large;
   margin-right: 40px;
   color: black;
 }
 .twitter:hover{
   color: #fd7e14;
 }
+.facebook{
+  cursor: pointer;
+  font-size: large;
+  margin-right: 40px;
+  color: black;
+}
+.facebook:hover{
+  color: #fd7e14;
+}
 .in{
   cursor: pointer;
-  font-size: x-large;
+  font-size: large;
   margin-right: 40px;
   color: black;
 }

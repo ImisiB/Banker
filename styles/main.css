@@ -23,5 +23,25 @@
   cursor: none;
 }
 .dots{
-  color: black;
+  color: lightgrey;
+  font-size: 50px;
+  margin-bottom: 100px;
+}
+.dot{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 20px;
+  border-radius: 25%;
+  color: white;
+  font-size: 70px;
+  border-color: white;
+}
+.dut{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
