@@ -27,21 +27,47 @@
   font-size: 50px;
   margin-bottom: 100px;
 }
-.dot{
+/* .dot{
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 50px;
   width: 20px;
-  border-radius: 25%;
   color: white;
   font-size: 70px;
-  border-color: white;
+  border: solid red 25%;
 }
 .dut{
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+} */
+.imgs{
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: space-between ; */
+  padding: 10px 90px;
+  /* width: 100%; */
+}
+.wallet{
+  font-size: 100px;
+  text-align: center;
+}
+.wallets{
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  margin: 50px;
+  width: 320px;
+}
+
+.wallet-wd{
+  text-align: center;
+  font-size: xx-large;
+}
+.wallet-wds{
+  font-size: large;
+  color: #808080;
 }
