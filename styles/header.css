@@ -42,18 +42,17 @@ header{
 }
 .about:hover{
   color: #fd7e14;
-  border-bottom-color: red;
 }
 .we:hover .us{
   display: block;
   background-color: white;
-  border-top-color: red;
 }
 .us{
   display: none;
 }
 .you{
   height: 50px;
+  border: red solid 0px;
   /* width: 100%; */
 
 }
