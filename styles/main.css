@@ -71,3 +71,39 @@
   font-size: large;
   color: #808080;
 }
+
+.men{
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+  padding: 100px 0px 100px 50px;
+  width: 1250px;
+}
+.men .man img{
+  height: 400px;
+  width: 580px;
+}
+.man{
+  margin-right: 0px;
+  padding-right: 50px;
+}
+
+.mails{
+  color: #808080;
+  width: 600px;
+  height: 410px;
+}
+.computation{
+  margin-bottom: 50px;
+  color: black;
+  font-size: xx-large;
+  width: 100%;
+}
+.river{
+  font-size: x-large;
+  margin-bottom: 20px;
+  font-family: Open Sans;
+}
+.check{
+  font-size: x-large;
+}
