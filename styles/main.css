@@ -221,10 +221,33 @@
 }
 .teams{
   display: grid;
-  grid-template-columns: 4;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* background-color: red; */
   padding: 90px;
+  /* width: 100%; */
 }
 .team img{
   height: 200px;
   width: 200px;
+  display: inline-block;
+}
+.team{
+  display: inline-block;
+  /* background-color: blue; */
+  width: 200px;
+  margin-bottom: 60px;
+}
+.team img:hover{
+
+}
+.name{
+  font-size: larger;
+  color: black;
+  font-weight: 900;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+.work{
+  font-size: large;
+  color: #cccccc;
 }
