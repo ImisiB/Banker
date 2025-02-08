@@ -20,15 +20,17 @@ header{
   color: #fd7e14;
   font-size: large;
   margin-right: 40px;
+  margin-left: -20px;
   cursor: pointer;
-
+  /* background-color: blue; */
 }
 .about{
   cursor: pointer;
   /* width: 200px; */
   font-size: large;
   margin-right: 40px;
-  height: 50px;
+  height: 65px;
+  text-align: center;
   /* background-color: red; */
   padding-left: 20px;
   padding-right: 20px;
@@ -39,6 +41,9 @@ header{
   align-items: center;
   justify-content: center;
   text-align: center;
+  width: 100px;
+  height: 65px;
+  
 }
 .about:hover{
   color: #fd7e14;

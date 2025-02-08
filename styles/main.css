@@ -27,7 +27,8 @@
   font-size: 50px;
   margin-bottom: 100px;
 }
-/* .dot{
+.dut span{
+  /* width: 100%; */
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -38,12 +39,6 @@
   font-size: 70px;
   border: solid red 25%;
 }
-.dut{
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
 .imgs{
   display: flex;
   /* align-items: center; */
@@ -106,4 +101,130 @@
 }
 .check{
   font-size: x-large;
+}
+.checked{
+  color: green;
+}
+.user-email{
+  font-size: larger;
+  border-radius: 50px;
+  border-color: grey;
+  /* background-color: red; */
+  /* color: ; */
+  width: 350px;
+  height: 50px;
+}
+.user-email:active{
+  border-color: orangered;
+}
+.email{
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+.submit{
+  margin-left: 30px;
+  color: white;
+  font-size: larger;
+  background-color: orangered;
+  /* border: 25%; */
+  border-radius: 50px;
+  border-color: grey;
+  height: 50px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-us-two{
+  width: 100%;
+  /* background-color: black; */
+}
+.span-two{
+  color: orangered;
+  font-weight: 800;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  /* background-color: red; */
+}
+.lorem-store{
+  width: 100%;
+  display: flex;
+  /* align-items: center; */
+  text-align: center;
+  justify-content: center;
+  font-size: larger;
+  font-weight: light;
+}
+.lorem-two{
+  color: #808080;
+  width: 600px;
+}
+.woman{
+  margin-top: 50px;
+  padding: 100px 100px 100px 100px;
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+}
+.woman img{
+  height: 400px;
+  width: 580px;
+}
+.words{
+  font-size: xx-large;
+  margin-left: 70px;
+  width: 525px;
+  height: 400px;
+  /* background-color: red; */
+}
+.letters{
+  margin-top: 35px;
+  width: 425px;
+  font-size: large;
+  color: #808080;
+}
+.letter{
+  margin-top: 35px;
+  width: 425px;
+  font-size: large;
+  color: #808080;
+}
+
+.meet-team{
+  width: 100%;
+}
+.meet{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: orangered;
+  font-size: 70px;
+  font-weight: 900;
+}
+.dude{
+  margin-top: 35px;
+  width: 425px;
+  font-size: large;
+  color: #808080;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: x-large;
+}
+.duden{
+  width: 800px;
+}
+.teams{
+  display: grid;
+  grid-template-columns: 4;
+  padding: 90px;
+}
+.team img{
+  height: 200px;
+  width: 200px;
 }
