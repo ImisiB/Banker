@@ -675,6 +675,9 @@
   color: white;
   cursor: pointer;
 }
+.bought:hover span{
+  background-color: #838181;
+}
 .nine{
   font-family: Arial;
   font-size: large;
@@ -698,6 +701,70 @@
   box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.3);
 }
 
+.faq{
+  padding: 100px;
+  background-color: #f8f9fa;
+}
 .frequently{
-  
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fd7e14;
+  font-size: 50px;
+  font-weight: 900;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+.asked{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-content: center;
+}
+.ask{
+  font-size: 26px;
+  font-family: Arial;
+  margin-bottom: 100px;
+  font-weight: 100;
+  margin-left: 40px;
+}
+.answer{
+  margin-top: 25px;
+  font-size: large;
+  color: #808080;
+}
+
+.laptop{
+  padding: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-content: center;
+}
+.lap{
+  margin-right: 100px;
+}
+.laptop img{
+  height: 400px;
+  width: 580px;
+}
+.fill{
+  font-size: 60px;
+  color: #fd7e14;
+}
+.gear{
+  display: flex;
+  justify-content: center;
+  /* background-color: red; */
+}
+.loan{
+  font-size: x-large;
+  font-family: Arial;
+  margin-bottom: 30px;
+  margin-left: 40px;
+}
+.riches{
+  color: #808080;
+  font-size: large;
+  font-family: Arial;
+  margin-bottom: 20px;
 }
