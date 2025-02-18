@@ -1,0 +1,100 @@
+.foot{
+  height: 460px;
+  padding: 60px 60px 0px 60px;
+  background-color: #343a40;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.st{
+  margin-right: 60px;
+}
+.same{
+  color: white;
+  font-size: large;
+  width: 180px;
+  font-family: Arial;
+  font-weight: 100;
+}
+.space{
+  color:#ffffffb3;
+  font-size: 18px;
+  font-family: Arial;
+  font-weight: 100;
+  width: 350px;
+  margin-top: 30px;
+  line-height: 27px;
+}
+.line{
+  text-decoration: underline;
+  font-size: 18px;
+  font-family: Arial;
+  font-weight: 100;
+  margin-top: 20px;
+  color: #ffffffb3;
+}
+.everything{
+  text-align: center;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  margin-left: -30px;
+}
+.rhyme{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 100px;
+  width: 200px;
+  padding-bottom: 20px;
+}
+.input-type{
+  margin-top: 20px;
+  padding: 15px 0px 15px 35px;
+  border-radius: 50px;
+  z-index: 1;
+  background: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-color: none;
+}
+.input-type::placeholder{
+  font-family: baskerville;
+  color: #6c757d;
+  font-size: 20px;
+}
+.send-it{
+  padding: 15px 35px;
+  text-align: center;
+  border-radius: 50px;
+  font-weight: 300;
+  font-family: Arial;
+  background-color: white;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-left: -2px;
+  margin-bottom: -20px;
+}
+.slashed{
+  background-color: #808080;
+  height: 1px;
+  width: 100%;
+}
+.feet{
+  padding: 60px;
+  background-color: #343a40;
+  font-family: Arial;
+  color: #808080;
+  text-align: center ;
+}
+.feet i{
+  color: red;
+  font-size: small;
+}
+.follow{
+  margin-top: 30px;
+  color: white;
+}
+.follow a{
+  color: blue;
+  margin-left: 5px;
+}
