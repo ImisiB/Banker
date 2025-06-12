@@ -1,0 +1,49 @@
+@media only screen and (max-width: 1200px) {
+  .scope{
+    display: none;
+  }
+  /* .slide{
+    display: grid;
+    grid-template-columns: 1fr;
+    /* flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center;
+    padding: 0;
+  } */
+  .online{
+    margin: 0;
+    width: fit-content;
+  }
+  .form-emailer{
+    width: 600px;
+  }
+  .bios{
+    width: 600px;
+  }
+  .foot{
+    padding: 0;
+  }
+  .st{
+    margin: 0;
+    text-align: center;
+    background-color: red;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .events{
+    padding: 10px 50px;
+  }
+  .slide{
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 897px) {
+  .main-img{
+    height: 150px;
+    width: 200px;
+  }
+  .holiday{
+    height: 150px;
+    width: 200px;
+  }
+}

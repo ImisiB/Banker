@@ -1,11 +1,22 @@
 .foot{
-  height: 460px;
-  padding: 60px 60px 0px 60px;
+  padding: 60px 30px 0px 30px;
   background-color: #343a40;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-.st{
+/* .one{
+  margin-right: 60px;
+}
+.two{
+  margin-right: 60px;
+}
+.three{
+  margin-right: 60px;
+}*/
+.four{
+  padding: 50px;
   margin-right: 60px;
 }
 .same{
@@ -20,8 +31,9 @@
   font-size: 18px;
   font-family: Arial;
   font-weight: 100;
-  width: 350px;
+  max-width: 350px;
   margin-top: 30px;
+  
   line-height: 27px;
 }
 .line{
@@ -34,9 +46,10 @@
 }
 .everything{
   text-align: center;
-  width: 300px;
+  max-width: 300px;
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-left: -30px;
 }
 .rhyme{
