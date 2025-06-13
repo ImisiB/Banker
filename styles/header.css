@@ -5,24 +5,31 @@ header{
 }
 .header{
   box-shadow: 0px 0px 1px 0px ;
-  padding: 0 170px;
-  height: 65px;
+  padding: 0 100px;
+  /* background-color: red; */
   background-color: white;
   display: flex ;
   align-items: center;
   justify-content: space-between;
+  text-align: center;
+}
+.wait-icon{
+  display: none;
 }
 .head{
   font-size: x-large;
   color: #fd7e14;
   cursor: pointer;
-  margin-right: 540px;
+  margin-right: 40px;
+}
+.head-part{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .heads{
   color: #fd7e14;
   font-size: large;
-  margin-right: 40px;
-  margin-left: -20px;
   cursor: pointer;
   /* background-color: blue; */
 }
@@ -30,7 +37,6 @@ header{
   cursor: pointer;
   /* width: 200px; */
   font-size: large;
-  margin-right: 40px;
   height: 65px;
   text-align: center;
   /* background-color: red; */

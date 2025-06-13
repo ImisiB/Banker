@@ -23,11 +23,6 @@
   .foot{
     padding: 0;
   }
-  .st{
-    margin: 0;
-    text-align: center;
-    background-color: red;
-  }
 }
 @media only screen and (max-width: 1024px) {
   .events{
@@ -36,6 +31,12 @@
   .slide{
     flex-wrap: wrap;
   }
+  .off{
+    text-align: start;
+    /* width: 560px; */
+    padding: 10px;
+  }
+
 }
 @media only screen and (max-width: 897px) {
   .main-img{
@@ -45,5 +46,179 @@
   .holiday{
     height: 150px;
     width: 200px;
+  }
+}
+@media only screen and (max-width: 804px) {
+  .main-img{
+    height: 500px;
+    width: 650px;
+  }
+  .holiday{
+    height: 500px;
+    width: 650px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .main-img{
+    height: 470px;
+    width: 570px;
+  }
+  .holiday{
+    height: 470px;
+    width: 570px;
+  }
+  .head-part{
+    display: none;
+  }
+  .wait-icon{
+    display: block;
+  }
+  .header{
+    padding: 20px 100px;
+  }
+  .men .man img{
+    height: 350px;
+    width: 450px;
+  }
+  .woman img{
+    height: 450px;
+    width: 550px;
+  }
+  .laptop img{
+    height: 300px;
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 689px) {
+  .woman img{
+    height: 350px;
+    width: 450px;
+  }
+  .main-img{
+    width: 400px;
+    height: 350px;
+  }
+  .holiday{
+    width: 400px;
+    height: 350px;
+  }
+  .border,
+  .form-emailer{
+    width: 300px;
+  }
+  .bios{
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 674px) {
+  .img-woman{
+    height: 300px;
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .main-img{
+    width: 450px;
+    height: 400px;
+  }
+  .holiday{
+    height: 400px;
+    width: 450px;
+  }
+  .img-woman{
+    height: 230px;
+    width: 330px;
+  }
+  .laptop img{
+    height: 250px;
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 530px) {
+  .men .man img{
+    height: 250px;
+    width: 350px;
+  }
+  .woman img{
+    height: 200px;
+    width: 300px;
+  }
+  .main-img{
+    width: 340px;
+    height: 240px;
+  }
+  .holiday{
+    width: 340px;
+    height: 240px;
+  }
+  .how{
+    font-size: 30px;
+  }
+  .likes{
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .banking{
+    font-size: 50px;
+  }
+  .men .man img{
+    height: 150px;
+    width: 250px;
+  }
+  .computation{
+    font-size: x-large;
+  }
+  .woman img{
+    height: 150px;
+    width: 250px;
+  }
+  .words{
+    font-size: x-large;
+  }
+  .main-img{
+    width: 240px;
+    height: 140px;
+  }
+  .holiday{
+    width: 240px;
+    height: 140px;
+  }
+  .img-woman{
+    height: 150px;
+    width: 250px;
+  }
+  .pricing{
+    padding: 10px;
+  }
+  .frequently{
+    font-size: 40px;
+  }
+  .laptop img{
+    height: 200px;
+    width: 250px;
+  }
+  .man-too img{
+    height: 200px;
+    width: 250px;
+  }
+  .blogged{
+    padding: 50px;
+  }
+  .border,
+  .form-emailer{
+    width: 200px;
+  }
+  .bios{
+    width: 200px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .how{
+    width: fit-content;
+  }
+  .likes{
+    width: fit-content;
   }
 }
