@@ -214,6 +214,20 @@
   .bios{
     width: 200px;
   }
+  .four{
+    margin-top: 20px;
+  }
+  .foot{
+    padding: 0;
+  }
+  .rhyme input{
+    width: 50px;
+    padding: 15px 0;
+  }
+  .rhyme input::placeholder{
+    font-size: 16px;
+  }
+
 }
 @media only screen and (max-width: 320px) {
   .how{

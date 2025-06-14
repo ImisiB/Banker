@@ -633,8 +633,6 @@
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
-  /* display: grid;
-  grid-template-columns: 1fr 1fr 1fr; */
   margin-left: 20px;
   margin-bottom: 30px;
 }
@@ -720,7 +718,6 @@
 }
 
 .faq{
-  /* padding: 100px; */
   background-color: #f8f9fa;
 }
 .frequently{
@@ -891,7 +888,7 @@
   font-size: xx-large;
   text-align: center;
   margin-bottom: 10px;
-  margin-right: 30px;
+  /* margin-right: 30px; */
 }
 .address{
   margin-top: 10px;

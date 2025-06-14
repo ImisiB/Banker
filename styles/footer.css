@@ -6,19 +6,6 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
-/* .one{
-  margin-right: 60px;
-}
-.two{
-  margin-right: 60px;
-}
-.three{
-  margin-right: 60px;
-}*/
-.four{
-  padding: 50px;
-  margin-right: 60px;
-}
 .same{
   color: white;
   font-size: large;
@@ -55,7 +42,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 200px;
+  /* width: 200px; */
   padding-bottom: 20px;
 }
 .input-type{
@@ -95,7 +82,7 @@
   background-color: #343a40;
   font-family: Arial;
   color: #808080;
-  text-align: center ;
+  text-align: center;
 }
 .feet i{
   color: red;
